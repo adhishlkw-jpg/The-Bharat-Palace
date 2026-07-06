@@ -1,9 +1,9 @@
 // Central content, image mappings, and constants for The Bharat Palace site.
 
 export const CONTACT = {
-  phone: "+916386243721",
-  phoneDisplay: "+91 63862 43721",
-  whatsapp: "https://wa.me/916386243721",
+  phone: "+919918591999",
+  phoneDisplay: "+91 99185 91999",
+  whatsapp: "https://wa.me/919918591999",
   maps: "https://maps.app.goo.gl/smWcdrpAGM6E4bwx9",
   address: "Arya Nagar, Sitapur",
   addressFull: "Arya Nagar, Sitapur, Uttar Pradesh 261001",
