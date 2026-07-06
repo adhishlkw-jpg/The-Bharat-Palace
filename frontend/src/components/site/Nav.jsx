@@ -37,8 +37,12 @@ export const Nav = () => {
           className="flex items-center gap-3 group"
           data-testid="nav-logo"
         >
-          <div className="w-9 h-9 rounded-full border border-[#c9a96e] flex items-center justify-center">
-            <span className="font-display text-[#c9a96e] text-sm tracking-tight">BP</span>
+          <div className="w-9 h-9 rounded-full border border-[#c9a96e] flex items-center justify-center overflow-hidden bg-[#0e0e0e]">
+            <img
+              src="/images/bp-logo-gold.png"
+              alt="The Bharat Palace"
+              className="w-6 h-6 object-contain"
+            />
           </div>
           <div className="leading-tight">
             <div className="font-display text-white text-lg tracking-wide">
