@@ -13,17 +13,11 @@ export const CONTACT = {
 
 // Owner-provided venue photos
 export const OWNER = {
-  exterior:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/67up9xhf_IMG_3950.jpg",
-  weddingStage:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/t79umttl_IMG_3953.jpg",
-  lobby:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/6vzog92z_IMG_3955.jpg",
-  // Swapped mapping to match what user expects: engagement card shows the purple welcome board, birthday card shows the jungle theme
-  engagement:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/kknz0pvf_IMG_3954.jpg",
-  birthday:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/5x8x8917_IMG_3951.jpg",
+  exterior: "/images/IMG_3950.jpg",
+  birthday: "/images/IMG_3951.jpg",
+  weddingStage: "/images/IMG_3953.jpg",
+  engagement: "/images/IMG_3954.jpg",
+  lobby: "/images/IMG_3955.jpg",
 };
 
 // Supplementary luxury imagery for gallery variety — verified stable Pexels CDN URLs
