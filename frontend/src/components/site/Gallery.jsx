@@ -1,16 +1,11 @@
-import React, { useState, useMemo, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
-import { GALLERY_ITEMS, GALLERY_FILTERS } from "@/data/content";
+import { GALLERY_ITEMS } from "@/data/content";
 
 export const Gallery = () => {
-  const [filter, setFilter] = useState("All");
   const [lightbox, setLightbox] = useState(null); // index or null
-
-  const items = useMemo(() => {
-    if (filter === "All") return GALLERY_ITEMS;
-    return GALLERY_ITEMS.filter((g) => g.tags.includes(filter));
-  }, [filter]);
+  const items = GALLERY_ITEMS;
 
   const close = useCallback(() => setLightbox(null), []);
   const next = useCallback(
@@ -43,29 +38,13 @@ export const Gallery = () => {
       data-testid="gallery-section"
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-10">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-12">
+        <div className="mb-12">
           <div>
             <div className="chip mb-6">Gallery</div>
             <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-white leading-[1.05] text-balance max-w-2xl">
               Moments made{" "}
               <span className="font-accent italic text-[#c9a96e]">timeless</span>
             </h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {GALLERY_FILTERS.map((f) => (
-              <button
-                key={f}
-                onClick={() => setFilter(f)}
-                data-testid={`gallery-filter-${f.toLowerCase().replace(/\s+/g, "-")}`}
-                className={`text-[10px] uppercase tracking-[0.24em] px-4 py-2.5 border transition-all ${
-                  filter === f
-                    ? "border-[#c9a96e] text-[#0e0e0e] bg-[#c9a96e]"
-                    : "border-white/15 text-white/70 hover:border-[#c9a96e]/60 hover:text-white"
-                }`}
-              >
-                {f}
-              </button>
-            ))}
           </div>
         </div>
 

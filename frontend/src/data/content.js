@@ -1,9 +1,9 @@
 // Central content, image mappings, and constants for The Bharat Palace site.
 
 export const CONTACT = {
-  phone: "+916386243721",
-  phoneDisplay: "+91 63862 43721",
-  whatsapp: "https://wa.me/916386243721",
+  phone: "+919918591999",
+  phoneDisplay: "+91 99185 91999",
+  whatsapp: "https://wa.me/919918591999",
   maps: "https://maps.app.goo.gl/smWcdrpAGM6E4bwx9",
   address: "Arya Nagar, Sitapur",
   addressFull: "Arya Nagar, Sitapur, Uttar Pradesh 261001",
@@ -18,6 +18,7 @@ export const OWNER = {
   weddingStage: "/images/IMG_3953.jpg",
   engagement: "/images/IMG_3954.jpg",
   lobby: "/images/IMG_3955.jpg",
+  anniversary: "/images/anniversary.jpg",
 };
 
 // Supplementary luxury imagery for gallery variety — verified stable Pexels CDN URLs
@@ -82,7 +83,7 @@ export const EVENT_CATEGORIES = [
   { title: "Reception", image: STOCK.reception, size: "medium" },
   { title: "Birthday Party", image: OWNER.birthday, size: "medium" },
   { title: "Engagement", image: OWNER.engagement, size: "medium" },
-  { title: "Anniversary", image: STOCK.anniversary, size: "medium" },
+  { title: "Anniversary", image: OWNER.anniversary, size: "medium" },
   { title: "Corporate Event", image: STOCK.corporate, size: "large" },
   { title: "Baby Shower", image: STOCK.babyShower, size: "medium" },
   { title: "Family Gathering", image: STOCK.family, size: "medium" },
@@ -98,16 +99,6 @@ export const GALLERY_ITEMS = [
   { src: STOCK.foodSetup, category: "Food Setup", tags: ["Food Setup"] },
   { src: STOCK.decoration, category: "Decoration", tags: ["Decoration"] },
   { src: STOCK.corporate, category: "Hall", tags: ["Hall"] },
-];
-
-export const GALLERY_FILTERS = [
-  "All",
-  "Weddings",
-  "Hall",
-  "Decoration",
-  "Food Setup",
-  "Stage",
-  "Exterior",
 ];
 
 export const REVIEWS = [
