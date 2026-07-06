@@ -16,8 +16,12 @@ export const Footer = () => {
         <div className="grid md:grid-cols-12 gap-10 pb-14">
           <div className="md:col-span-5">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-full border border-[#c9a96e] flex items-center justify-center">
-                <span className="font-display text-[#c9a96e]">BP</span>
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img
+                  src="/images/bp-logo.png"
+                  alt="The Bharat Palace logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div>
                 <div className="font-display text-white text-xl">
