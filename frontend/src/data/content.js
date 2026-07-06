@@ -5,8 +5,6 @@ export const CONTACT = {
   phoneDisplay: "+91 63862 43721",
   whatsapp: "https://wa.me/916386243721",
   maps: "https://maps.app.goo.gl/smWcdrpAGM6E4bwx9",
-  mapsReviews:
-    "https://www.google.com/maps/place/?q=place_id:ChIJ_____the_bharat_palace",
   address: "Arya Nagar, Sitapur",
   addressFull: "Arya Nagar, Sitapur, Uttar Pradesh 261001",
   hours: "Open 24 Hours",
