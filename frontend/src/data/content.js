@@ -18,6 +18,15 @@ export const OWNER = {
   weddingStage: "/images/IMG_3953.jpg",
   engagement: "/images/IMG_3954.jpg",
   lobby: "/images/IMG_3955.jpg",
+  gallery01: "/images/gallery/bharat-palace-gallery-01.jpg",
+  gallery02: "/images/gallery/bharat-palace-gallery-02.jpg",
+  gallery03: "/images/gallery/bharat-palace-gallery-03.jpg",
+  gallery04: "/images/gallery/bharat-palace-gallery-04.jpg",
+  gallery05: "/images/gallery/bharat-palace-gallery-05.jpg",
+  gallery06: "/images/gallery/bharat-palace-gallery-06.jpg",
+  gallery07: "/images/gallery/bharat-palace-gallery-07.jpg",
+  gallery08: "/images/gallery/bharat-palace-gallery-08.jpg",
+  gallery09: "/images/gallery/bharat-palace-gallery-09.jpg",
 };
 
 // Supplementary luxury imagery for gallery variety — verified stable Pexels CDN URLs
@@ -89,6 +98,15 @@ export const EVENT_CATEGORIES = [
 ];
 
 export const GALLERY_ITEMS = [
+  { src: OWNER.gallery01, category: "Hall", tags: ["Hall", "Decoration"] },
+  { src: OWNER.gallery02, category: "Hall", tags: ["Hall"] },
+  { src: OWNER.gallery03, category: "Stage", tags: ["Stage", "Decoration"] },
+  { src: OWNER.gallery04, category: "Decoration", tags: ["Decoration"] },
+  { src: OWNER.gallery05, category: "Hall", tags: ["Hall"] },
+  { src: OWNER.gallery06, category: "Stage", tags: ["Stage", "Decoration"] },
+  { src: OWNER.gallery07, category: "Exterior", tags: ["Exterior"] },
+  { src: OWNER.gallery08, category: "Weddings", tags: ["Weddings", "Stage"] },
+  { src: OWNER.gallery09, category: "Food Setup", tags: ["Food Setup", "Hall"] },
   { src: OWNER.weddingStage, category: "Stage", tags: ["Weddings", "Stage", "Decoration"] },
   { src: OWNER.engagement, category: "Decoration", tags: ["Decoration"] },
   { src: OWNER.lobby, category: "Hall", tags: ["Hall"] },
