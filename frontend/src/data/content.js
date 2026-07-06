@@ -19,26 +19,32 @@ export const OWNER = {
     "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/t79umttl_IMG_3953.jpg",
   lobby:
     "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/6vzog92z_IMG_3955.jpg",
-  birthday:
-    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/kknz0pvf_IMG_3954.jpg",
+  // Swapped mapping to match what user expects: engagement card shows the purple welcome board, birthday card shows the jungle theme
   engagement:
+    "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/kknz0pvf_IMG_3954.jpg",
+  birthday:
     "https://customer-assets.emergentagent.com/job_palace-events-3/artifacts/5x8x8917_IMG_3951.jpg",
 };
 
-// Supplementary luxury imagery for gallery variety
+// Supplementary luxury imagery for gallery variety — verified stable Pexels CDN URLs
 export const STOCK = {
   corporate:
-    "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1600",
   reception:
-    "https://images.unsplash.com/photo-1519741497674-611481863552?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/20499528/pexels-photo-20499528.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  // Elegant baby shower — floral arch with 'Welcome Baby' sign, pastel table settings
   babyShower:
-    "https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/32573161/pexels-photo-32573161.jpeg?auto=compress&cs=tinysrgb&w=1600",
   family:
-    "https://images.unsplash.com/photo-1530023367847-a683933f4172?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/3184423/pexels-photo-3184423.jpeg?auto=compress&cs=tinysrgb&w=1600",
   foodSetup:
-    "https://images.unsplash.com/photo-1555244162-803834f70033?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  // Indian mandap decor with flowers & chandeliers
   decoration:
-    "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=1600&auto=format&fit=crop&q=80",
+    "https://images.pexels.com/photos/34079355/pexels-photo-34079355.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  // Vibrant Indian wedding stage with golden columns & colorful flowers — anniversary vibe
+  anniversary:
+    "https://images.pexels.com/photos/14395559/pexels-photo-14395559.jpeg?auto=compress&cs=tinysrgb&w=1600",
 };
 
 export const NAV_LINKS = [
@@ -82,7 +88,7 @@ export const EVENT_CATEGORIES = [
   { title: "Reception", image: STOCK.reception, size: "medium" },
   { title: "Birthday Party", image: OWNER.birthday, size: "medium" },
   { title: "Engagement", image: OWNER.engagement, size: "medium" },
-  { title: "Anniversary", image: STOCK.decoration, size: "medium" },
+  { title: "Anniversary", image: STOCK.anniversary, size: "medium" },
   { title: "Corporate Event", image: STOCK.corporate, size: "large" },
   { title: "Baby Shower", image: STOCK.babyShower, size: "medium" },
   { title: "Family Gathering", image: STOCK.family, size: "medium" },
