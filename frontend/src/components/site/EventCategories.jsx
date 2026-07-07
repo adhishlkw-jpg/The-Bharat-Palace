@@ -25,7 +25,7 @@ export const EventCategories = () => {
             </h2>
           </div>
           <p className="text-white/60 max-w-md text-sm md:text-base">
-            From intimate family gatherings to 400-guest weddings — every event
+            From intimate family gatherings to 800-guest weddings — every event
             at The Bharat Palace is planned with detail and heart.
           </p>
         </div>

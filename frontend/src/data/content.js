@@ -8,7 +8,7 @@ export const CONTACT = {
   address: "Arya Nagar, Sitapur",
   addressFull: "Arya Nagar, Sitapur, Uttar Pradesh 261001",
   hours: "Open 24 Hours",
-  capacity: "Up to 400 Guests",
+  capacity: "Up to 800 Guests",
 };
 
 // Owner-provided venue photos
@@ -66,7 +66,7 @@ export const HERO_SLIDES = [
 ];
 
 export const FACILITIES = [
-  { icon: "Crown", title: "Spacious Hall", desc: "Up to 400 guests seated with grand chandeliers." },
+  { icon: "Crown", title: "Spacious Hall", desc: "Up to 800 guests seated with grand chandeliers." },
   { icon: "Sparkles", title: "Elegant Décor", desc: "Curated floral & lighting arrangements." },
   { icon: "Heart", title: "Premium Hospitality", desc: "Warm, attentive service for every guest." },
   { icon: "BedDouble", title: "Guest Rooms", desc: "On-site rooms for family & travelling guests." },
@@ -131,7 +131,7 @@ export const REVIEWS = [
 export const STATS = [
   { value: 146, suffix: "+", label: "Google Reviews" },
   { value: 24, suffix: "/7", label: "Open" },
-  { value: 400, suffix: "+", label: "Guest Capacity" },
+  { value: 800, suffix: "+", label: "Guest Capacity" },
   { value: 100, suffix: "+", label: "Events Hosted" },
 ];
 

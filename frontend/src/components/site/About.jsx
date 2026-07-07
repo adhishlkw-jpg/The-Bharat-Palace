@@ -72,7 +72,7 @@ export const About = () => {
             The Bharat Palace is one of Sitapur&apos;s most sought-after banquet
             venues — offering spacious event spaces, elegant interiors,
             comfortable guest facilities and warm hospitality. From intimate
-            gatherings to grand weddings of 400 guests, our team crafts every
+            gatherings to grand weddings of 800 guests, our team crafts every
             detail with quiet precision.
           </p>
 
