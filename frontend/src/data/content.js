@@ -95,6 +95,16 @@ export const GALLERY_ITEMS = [
   { src: OWNER.birthday, category: "Stage", tags: ["Stage", "Decoration"] },
   { src: STOCK.foodSetup, category: "Food Setup", tags: ["Food Setup"] },
   { src: STOCK.corporate, category: "Hall", tags: ["Hall"] },
+  { src: "/images/gallery-1.jpg", category: "Birthday Decor", tags: ["Decoration", "Stage"] },
+  { src: "/images/gallery-2.jpg", category: "Guest Rooms", tags: ["Hall"] },
+  { src: "/images/gallery-3.jpg", category: "Interiors", tags: ["Hall"] },
+  { src: "/images/gallery-4.jpg", category: "Stage", tags: ["Stage", "Decoration"] },
+  { src: "/images/gallery-5.jpg", category: "Food Setup", tags: ["Food Setup"] },
+  { src: "/images/gallery-6.jpg", category: "Weddings", tags: ["Weddings", "Hall"] },
+  { src: "/images/gallery-7.jpg", category: "Food Setup", tags: ["Food Setup", "Exterior"] },
+  { src: "/images/gallery-8.jpg", category: "Exterior", tags: ["Exterior"] },
+  { src: "/images/gallery-9.jpg", category: "Exterior", tags: ["Exterior", "Food Setup"] },
+  { src: "/images/gallery-10.jpg", category: "Birthday Decor", tags: ["Decoration", "Stage"] },
 ];
 
 export const REVIEWS = [
