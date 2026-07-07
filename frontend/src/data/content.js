@@ -37,8 +37,7 @@ export const STOCK = {
   decoration:
     "https://images.pexels.com/photos/34079355/pexels-photo-34079355.jpeg?auto=compress&cs=tinysrgb&w=1600",
   // Vibrant Indian wedding stage with golden columns & colorful flowers — anniversary vibe
-  anniversary:
-    "https://images.pexels.com/photos/14395559/pexels-photo-14395559.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  anniversary: "/images/anniversary-event.jpg",
 };
 
 export const NAV_LINKS = [
@@ -94,20 +93,8 @@ export const GALLERY_ITEMS = [
   { src: OWNER.lobby, category: "Hall", tags: ["Hall"] },
   { src: OWNER.exterior, category: "Exterior", tags: ["Exterior"] },
   { src: OWNER.birthday, category: "Stage", tags: ["Stage", "Decoration"] },
-  { src: STOCK.reception, category: "Weddings", tags: ["Weddings"] },
   { src: STOCK.foodSetup, category: "Food Setup", tags: ["Food Setup"] },
-  { src: STOCK.decoration, category: "Decoration", tags: ["Decoration"] },
   { src: STOCK.corporate, category: "Hall", tags: ["Hall"] },
-];
-
-export const GALLERY_FILTERS = [
-  "All",
-  "Weddings",
-  "Hall",
-  "Decoration",
-  "Food Setup",
-  "Stage",
-  "Exterior",
 ];
 
 export const REVIEWS = [
